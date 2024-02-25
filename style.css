@@ -1,0 +1,33 @@
+*{
+    font-family: 'Verdana';
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+th{
+    padding: 3px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+td {
+    padding: 3px;
+    text-align: left;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+th {
+    background-color: #80ba13;
+}
+td:nth-child(even) {
+    background-color: #cde89b;
+}
+td:nth-child(odd) {
+    background-color: #e2edce;
+}
+
